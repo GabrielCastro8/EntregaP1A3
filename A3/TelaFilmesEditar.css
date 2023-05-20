@@ -15,7 +15,7 @@ h1{
 }
 
 .centro {
-    height: 80vh;
+    height: 81vh;
     width: 97%;
     background-color: rgba(8, 8, 8, 0.5);    
     position: absolute;
@@ -26,7 +26,7 @@ h1{
     
 }
 .quadrado{
-    text-align: center;
+    text-align: left;
 }
 .conteudo {
     margin:10px;
@@ -37,22 +37,24 @@ h1{
 
 p{
     color:white;
-    font-size: 15px; 
+    font-size: 25px; 
 }
 
 
 
 .botoes{
     display: flex;
-    justify-content: space-between;
+    
+    
 }
 
 input{
     height: 35px;
-    width: 90%;
+    width: 350px;
     background-color: rgb(209, 209, 209);
     border: none;
     border-radius: 7px;
+    margin: 10px;
     
 }
 
@@ -77,12 +79,15 @@ button{
 }
 
 img{
-    height: 150px;
+    height: 400px;
 }
 
 .nomeFilme{
     font-size: 30px;
-    margin-top: 10px;
+}
+
+.descricao{
+    font-size: 30px;
 }
 
 table{
@@ -91,40 +96,43 @@ table{
     border-radius: 5px;
 }
 
-tr:hover{
-    background-color: gray;
-}
-
 button:hover{
     background-color: gray;
 }
 
-.filme{
-    border: 1px solid gray;
-    display: flex;
-    
-    
-}
-
-.status{
-    display: flex;
-    flex-direction: column;
-    margin-left:5px;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-span{
-    color:white;
-    font-size: 15px; 
-    margin: 3px;
-}
-
-.filme:hover{
+select:hover{
     background-color: gray;
 }
 
-a{
-    color:white;
-    font-size: 30px; 
+h2{
+    color: white;
+    font-size: 30px;
 }
+
+.nomeFilme{
+    color: white;
+}
+
+select{
+    
+    background-color: rgb(43, 42, 42);
+    border-radius: 10px;
+    color:white;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    font-size: 25px;
+     
+}
+
+textarea{
+    height: 350px;
+    width: 80%;
+    background-color: rgb(209, 209, 209);
+    border: none;
+    border-radius: 7px;
+    margin: 10px;
+         
+}
+
+
