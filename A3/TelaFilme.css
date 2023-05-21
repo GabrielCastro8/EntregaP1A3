@@ -88,15 +88,7 @@ img{
     margin-top: 10px;
 }
 
-table{
-    border:2px solid rgb(124, 124, 124);
-    width: 90%;
-    border-radius: 5px;
-}
 
-tr:hover{
-    background-color: gray;
-}
 
 button:hover{
     background-color: gray;
