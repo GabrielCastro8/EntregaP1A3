@@ -1,0 +1,75 @@
+body{
+    background-image: url('pexels-photo.jpg') ;
+    margin:0px;
+    padding: 0px;
+    
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-family: 'Nanum Myeongjo';
+    font-size: 60px;
+}
+
+.centro {
+    height: 60%;
+    width:35%;
+    background-color: rgba(8, 8, 8, 0.5);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    min-height: 700px;
+    min-width: 600px;
+    
+}
+.quadrado{
+    text-align: center;
+}
+.conteudo {
+    margin:7px;
+    padding:3px;
+}
+
+.cadastro{
+    color:white;
+    font-size: 30px;
+    
+}
+
+p{
+    color:white;
+    font-size: 25px; 
+}
+
+
+
+.botoes{
+    text-align: center;
+}
+
+input{
+    height: 35px;
+    width: 90%;
+    background-color: rgb(209, 209, 209);
+    border: none;
+    border-radius: 7px;
+    
+}
+
+button{
+   background-color: rgb(43, 42, 42);
+   border-radius: 10px;
+   color:white;
+   height: 40px;
+   width: 60%;
+   margin: 5px;
+   border: none;
+   font-size: 25px;
+}
+
+button:hover{
+    background-color: gray;
+}
