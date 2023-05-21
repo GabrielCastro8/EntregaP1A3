@@ -13,7 +13,7 @@ h1{
 }
 
 .centro {
-    height: 65%;
+    height: 60%;
     width: 35%;
     background-color: rgba(8, 8, 8, 0.5);
     position: absolute;
@@ -42,6 +42,7 @@ h1{
 p{
     color:white;
     font-size: 25px; 
+    margin: 25px;
 }
 
 
